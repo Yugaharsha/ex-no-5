@@ -1,0 +1,8 @@
+def tim(t):
+    a=t*60
+    return a
+t=int(input("enter the time in hours:"))
+print(t,"hours is equal to",tim(t),"minutes")
+output:
+enter the time in hours:2
+2 hours is equal to 120 minutes

@@ -1,0 +1,13 @@
+def area(r):
+   a=3.14*r**2
+   return a
+def peri(r):
+    b=3.14*2*r
+    return b
+r=int(input("enter the radius of the circle:"))
+print("the area of the circle is",area(r))
+print("the perimeter of the circle is",peri(r))
+output:
+enter the radius of the circle:3
+the area of the circle is 28.26
+the perimeter of the circle is 18.84

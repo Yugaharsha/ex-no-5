@@ -1,0 +1,15 @@
+def func(num):
+    if(num==1):
+        return num
+    else:
+        return(num*func(num-1))
+num=int(input("enter the number"))
+if(num==0):
+    print("the factorial of 0 is 1")
+elif(num<0):
+    print("the factorial cannot be performed,enter number greater than 0")
+else:
+    print("the factorial of",num,"is",func(num))
+    output:
+    enter the number5
+the factorial of 5 is 120

@@ -1,0 +1,16 @@
+list1=[]
+n=int(input("enter the number of element in list:"))
+for i in range(0,n):
+    e=int(input("enter the elements in the list:"))
+    list1.append(e)
+def tt(list1):
+    a=max(list1)
+    return a
+print("the largest number is",tt(list1))
+output:
+enter the number of element in list:4
+enter the elements in the list:520
+enter the elements in the list:652
+enter the elements in the list:356
+enter the elements in the list:956
+the largest number is 956

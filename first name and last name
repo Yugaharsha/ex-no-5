@@ -1,0 +1,10 @@
+def nam(a,b):
+    c=a+b
+    return c
+a=input("enter the first name:")
+b=input("enter the last name:")
+print("the full name is",nam(a,b))
+output:
+enter the first name:harsha
+enter the last name:vardhini
+the full name is harshavardhini
